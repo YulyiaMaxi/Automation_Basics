@@ -1,7 +1,8 @@
-package ru.netology.service;
 import org.testng.annotations.Test;
 import org.testng.Assert;
-    public class CashbackHackServiceTest {
+import ru.netology.service.CashbackHackService;
+
+public class CashbackHackServiceTest {
         CashbackHackService service = new CashbackHackService();
         @Test
         public void shouldReturn0IfAmountLessThan1000() {
